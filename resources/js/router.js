@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Post from './pages/Post';
+import Detail from './pages/Detail';
+
 
 
 
@@ -35,6 +37,11 @@ const router = new VueRouter({
             path: '/posts',
             name: 'post',
             component : Post
+        },
+        {
+            path: '/post/:slug',
+            name: 'detail',
+            component : Detail
         }
 
     ]
