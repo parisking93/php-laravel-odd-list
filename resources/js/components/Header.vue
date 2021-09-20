@@ -9,16 +9,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <router-link :to="{ name : 'home' }" class="nav-link">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <router-link :to="{ name : 'about' }" class="nav-link">Chi siamo</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Chi Siamo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contatti</a>
+                        <router-link :to="{ name : 'contact' }" class="nav-link">Contatti</router-link>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
