@@ -1,8 +1,8 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
-window.axios = require('axios');
+import Vue from 'vue'
+import axios from 'axios'
 
 import router from './router';
 
